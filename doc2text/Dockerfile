@@ -1,4 +1,4 @@
-FROM jlawton/ubuntu-dev-python
+FROM jlawton/python-dev
 MAINTAINER Jim Lawton
 
 RUN apt-get -y update
