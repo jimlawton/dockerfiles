@@ -8,7 +8,6 @@ RUN apt-get -y install build-essential
 RUN apt-get -y install pkg-config
 RUN apt-get -y install make
 RUN apt-get -y install g++
-RUN apt-get -y install python
 RUN apt-get -y install libncurses5
 RUN apt-get -y install libncurses5-dev
 RUN apt-get -y install curl
