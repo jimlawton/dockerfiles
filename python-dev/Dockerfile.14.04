@@ -1,4 +1,4 @@
-FROM jlawton/ubuntu-dev:latest
+FROM jlawton/ubuntu-dev:14.04
 MAINTAINER Jim Lawton
 
 RUN apt-get -y update
