@@ -14,6 +14,8 @@ RUN apt-get -y install libpng-dev
 RUN apt-get -y install libtiff-dev
 RUN apt-get -y install libjasper-dev
 RUN apt-get -y install libdc1394-22-dev
+RUN apt-get install -y python-scipy
+RUN apt-get install -y python-numpy
 
 # Install OpenCV.
 RUN git clone https://github.com/opencv/opencv.git 
@@ -33,9 +35,7 @@ RUN apt-get -y install tesseract-ocr
 RUN apt-get -y install python-pythonmagick
 
 RUN pip install PyPDF2
-RUN pip install numpy
 RUN pip install Pillow
-RUN pip install scipy
 RUN pip install pytesseract
 RUN pip install mime
 
