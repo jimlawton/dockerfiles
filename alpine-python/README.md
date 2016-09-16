@@ -7,8 +7,6 @@ A small Python Docker image based on [Alpine Linux](http://alpinelinux.org/). Th
 ## Supported tags
 * **2.7 ([Dockerfile](https://github.com/jlawton/alpine-python/blob/master/2.7/Dockerfile))**
 * **2.7-onbuild ([Dockerfile](https://github.com/jlawton/alpine-python/blob/master/2.7/onbuild/Dockerfile))**
-* **3.4 ([Dockerfile](https://github.com/jlawton/alpine-python/blob/master/3.4/Dockerfile))**
-* **3.4-onbuild ([Dockerfile](https://github.com/jlawton/alpine-python/blob/master/3.4/onbuild/Dockerfile))**
 * **3.5 ([Dockerfile](https://github.com/jlawton/alpine-python/blob/master/3.5/Dockerfile))**
 * **3.5-onbuild ([Dockerfile](https://github.com/jlawton/alpine-python/blob/master/3.5/onbuild/Dockerfile))**
 
